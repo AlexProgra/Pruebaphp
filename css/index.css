@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: #444;
+    width: 100%;
+    height: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav {
+    padding: 1rem;
+}
+
+header nav ul {
+    margin: 0 auto;
+    width: 40%;
+    height: auto;
+    display: flex;
+    padding: 1rem 3rem;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 0 auto;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 0.4rem 4rem;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    min-height: 100vh;
+    padding: 6rem 2rem;
+    text-align: justify;
+    display: flex;
+}
+
+.container .contenedor {
+    width: 75%;
+    height: auto;
+}
+
+.container h1 {
+    width: 100%;
+    height: 6rem;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container p {
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.4rem;
+}
+
+.container aside {
+    width: 25%;
+    height: 100%;
+    margin-left: 3rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 0.7rem;
+}
+
+.container aside img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+}
+
+footer {
+    width: 100%;
+    height: 6rem;
+    padding: 2rem;
+    background-color: #444;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1.7rem;
+    position: end;
+    width: 98%;
+}
